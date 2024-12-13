@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Le's Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .project {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .project:hover {
+            transform: scale(1.02);
+        }
+        .project img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .project-content {
+            padding: 1rem;
+        }
+        .project h2 {
+            margin-top: 0;
+        }
+        .project p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>Showcasing my projects and work</p>
+    </header>
+
+    <div class="container">
+        <div class="project">
+            <div class="project-content">
+                <h2>Incoming Intern @ Westmount Capital Partners</h2>
+                <p>Yay, first IB internship. Staffed under Alex Camus and Miles Chiu.</p>
+                <a href="https://www.westmountcapitalpartners.com/"target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h2>Project 2</h2>
+                <p>This website lol.</p>
+                <a href="https://github.com/TUTULEMAN/mywebsite" target="_blank">View Project</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="project-content">
+                <h2>Associate @ ASOKORA Ventures</h2>
+                <p>Yay Associate.</p>
+                <a href="https://asokora.com/" target="_blank">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio | Created by Max Le</p>
+    </footer>
+</body>
+</html>
